@@ -14,6 +14,15 @@ To acquire a token, send an email to us at _haghiri75@gmail.com_ and we'll reach
 
 ### Verify the token 
 
+Using a _curl_ command like this, you can verify that your token is valid or not. 
+
+```bash
+curl -X POST -k -H 'Content-Type: application/json' -i 'https://galileo.manne.ir/verify_token' --data '{
+ "token": "manne-YOUR_TOKEN"
+}'
+``` 
+
+
 ### Creating an image
 
 ### Listing all the images of your token
