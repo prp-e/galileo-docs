@@ -80,6 +80,15 @@ And the result will be a json object like the following:
 
 ### Listing all the images of your token
 
+__ENDPOINT__ : `/images`
+__METHOD__ : `GET`
+
+Using the following curl command, you can have a json array of all the images you have made.
+
+```bash
+curl -X GET -k -H 'token: manne-YOUR_TOKEN' -i 'https://galileo.manne.ir/images'
+```
+
 ### Getting a single image
 
 ## Help and Support
