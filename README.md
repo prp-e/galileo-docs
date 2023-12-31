@@ -13,3 +13,5 @@
 ### Listing all the images of your token
 
 ### Getting a single image
+
+## Help and Support
