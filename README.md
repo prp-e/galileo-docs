@@ -54,6 +54,16 @@ curl -X POST -k -H 'Content-Type: application/json' -H 'token: manne-YOUR_TOKEN'
 And the result will be a json object like the following:
 
 ```json
+  "user": {
+    "id": 1,
+    "name": "Mann-E",
+    "token": "manne-YOUR_TOKEN",
+    "created_at": "2023-12-31T09:13:17.185Z",
+    "updated_at": "2023-12-31T09:13:17.196Z"
+  },
+  "width": 768,
+  "height": 768
+}
 ```
 
 ### Listing all the images of your token
