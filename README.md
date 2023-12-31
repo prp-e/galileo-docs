@@ -1,5 +1,9 @@
 # Galileo (Mann-E's B2B Service) Documents
 
+<p align="center">
+    <img src="galileo-pic.png" width=256 height=256 />
+</p>
+
 ## Examples
 
 ## API Docs
