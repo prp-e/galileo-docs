@@ -20,3 +20,7 @@
 | `anime`         | Anime/Manga   | This style is for weebs! |
 | `miniature`     | Persian Miniature | For the love of Iran 😍 |
 | `vector`        | Vector Illustration || 
+
+## Notes 
+
+* in your request, you should use _style token_. 
