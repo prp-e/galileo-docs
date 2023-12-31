@@ -15,6 +15,7 @@ To acquire a token, send an email to us at _haghiri75@gmail.com_ and we'll reach
 ### Verify the token 
 
 __ENDPOINT__ : `/verify_token`
+__METHOD__ : `POST`
 
 Using a _curl_ command like this, you can verify that your token is valid or not. 
 
