@@ -106,4 +106,4 @@ The response is identical to when you create an image.
 
 ## Help and Support
 
-_TODO_
+For getting help and support, stay in contact with the support email/number we provide in our proposal.
