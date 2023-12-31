@@ -91,4 +91,12 @@ curl -X GET -k -H 'token: manne-YOUR_TOKEN' -i 'https://galileo.manne.ir/images'
 
 ### Getting a single image
 
+__ENDPOINT__ : `/images/:id`
+__METHOD__: `GET`
+
+This is for a single image, and doesn't need a token. The curl request is like the following:
+
+```bash
+```
+
 ## Help and Support
