@@ -22,6 +22,11 @@ curl -X POST -k -H 'Content-Type: application/json' -i 'https://galileo.manne.ir
 }'
 ``` 
 
+The response from the server will be like this:
+
+```json
+```
+
 
 ### Creating an image
 
