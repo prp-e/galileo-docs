@@ -77,7 +77,7 @@ And the result will be a json object like the following:
 
 1. `prompt` is the prompt which can result in an image. 
 2. `negative_prompt` is like prompt, but the difference is what you put here _won't be_ in the resulting image. 
-3. `style` is the style of the image. For more information please read [Style Guide]().
+3. `style` is the style of the image. For more information please read [Style Guide](./STYLES.md).
 4. `ratio`is the height/weight ratio of the image. Currently `1:1` (Square images), `9:16` (Portrait) and `16:9` (landscape) are supported.
 
 ### Listing all the images of your token
