@@ -6,6 +6,8 @@
 
 ## Examples
 
+_TODO_
+
 ## API Docs
 
 ### Acquiring the token
@@ -97,6 +99,11 @@ __METHOD__: `GET`
 This is for a single image, and doesn't need a token. The curl request is like the following:
 
 ```bash
+curl -X GET -k -i 'https://galileo.manne.ir/images/<IMAGE_ID>'
 ```
 
+The response is identical to when you create an image.
+
 ## Help and Support
+
+_TODO_
