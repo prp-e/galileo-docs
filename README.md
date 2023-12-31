@@ -54,6 +54,11 @@ curl -X POST -k -H 'Content-Type: application/json' -H 'token: manne-YOUR_TOKEN'
 And the result will be a json object like the following:
 
 ```json
+{
+  "prompt": "a young beautiful woman with orange hair, standing in front of a tree, analog photo",
+  "negative_prompt": "hands, arms",
+  "style": "nostyle",
+  "image": "BASE64_ENCODED_IMAGE"
   "user": {
     "id": 1,
     "name": "Mann-E",
