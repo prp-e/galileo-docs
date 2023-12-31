@@ -8,3 +8,10 @@
 | `tshirt` | T-Shirt   | If you want to _wear your dreams_ I guess this is your perfect style |
 | `double_exposure` | Double Exposure | This is for double exposure photos. The model is a little weak on this style for now |
 | `sticker` | Sticker | If you want to make beautiful die-cut stickers, use this style |
+| `digital` | Digital Painting | |
+| `classic` | Classic Painting | If you like old school paintings, this style is for you |
+| `surreal` | Surrealism       | This style gives your outputs a _Salvador Dali_ vibe |
+| `impressionist` | Impressionism | This style can make _Van Gogh_ paint an iPhone |
+| `concept`       | Concept Art   | Like digital, more video-game-ish |
+| `pixel`         | Pixel Art     | Like old SEGA games |
+| `dark`          | Dark Fantasy  | Like digital, but darker and scarier |
