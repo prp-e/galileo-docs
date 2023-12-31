@@ -10,6 +10,8 @@
 
 ### Acquiring the token
 
+To acquire a token, send an email to us at _haghiri75@gmail.com_ and we'll reach out to you as soon as possible with a proposal and also the more detailed guide. Although we tried to make this part of the docs a very neat and understandable document for everyone, but we also may provide support for our B2B customers.
+
 ### Verify the token 
 
 ### Creating an image
