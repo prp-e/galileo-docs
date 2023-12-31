@@ -15,3 +15,4 @@
 | `concept`       | Concept Art   | Like digital, more video-game-ish |
 | `pixel`         | Pixel Art     | Like old SEGA games |
 | `dark`          | Dark Fantasy  | Like digital, but darker and scarier |
+| `comic`         | Comic         | Using this style, you can make comic book characters and stuff |
