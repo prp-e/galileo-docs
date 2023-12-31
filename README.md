@@ -6,7 +6,9 @@
 
 ## Examples
 
-_TODO_
+* [HTML/Vanilla JS](./examples/html)
+* Python (Soon)
+* React/Axios (Soon)
 
 ## API Docs
 
