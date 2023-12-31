@@ -25,6 +25,10 @@ curl -X POST -k -H 'Content-Type: application/json' -i 'https://galileo.manne.ir
 The response from the server will be like this:
 
 ```json
+{
+  "message": "Your token is valid",
+  "name": "Mann-E"
+}
 ```
 
 
