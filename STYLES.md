@@ -17,3 +17,6 @@
 | `dark`          | Dark Fantasy  | Like digital, but darker and scarier |
 | `comic`         | Comic         | Using this style, you can make comic book characters and stuff |
 | `sketch`        | Sketch        | Pen/Pencil sketch style is made possible with this style       |
+| `anime`         | Anime/Manga   | This style is for weebs! |
+| `miniature`     | Persian Miniature | For the love of Iran 😍 |
+| `vector`        | Vector Illustration || 
