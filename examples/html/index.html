@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Image Request</title>
+</head>
+<body class="container mt-5">
+
+    <h2 class="mb-4">Image Request Form</h2>
+
+    <form id="imageRequestForm">
+        <div class="form-group">
+            <label for="prompt">Prompt</label>
+            <input type="text" class="form-control" id="prompt" placeholder="Enter prompt">
+        </div>
+
+        <div class="form-group">
+            <label for="negativePrompt">Negative Prompt</label>
+            <input type="text" class="form-control" id="negativePrompt" placeholder="Enter negative prompt">
+        </div>
+
+        <div class="form-group">
+            <label for="style">Style</label>
+            <input type="text" class="form-control" id="style" placeholder="Enter style (e.g., nostyle)">
+        </div>
+
+        <div class="form-group">
+            <label>Ratio</label>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="ratio" id="ratio1x1" value="1:1" checked>
+                <label class="form-check-label" for="ratio1x1">1:1</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="ratio" id="ratio16x9" value="16:9">
+                <label class="form-check-label" for="ratio16x9">16:9</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="ratio" id="ratio9x16" value="9:16">
+                <label class="form-check-label" for="ratio9x16">9:16</label>
+            </div>
+        </div>
+
+        <button type="button" class="btn btn-primary" onclick="submitRequest()">Submit Request</button>
+    </form>
+
+    <div id="imageResult" class="mt-4"></div>
+
+    <script>
+        function submitRequest() {
+            const prompt = document.getElementById('prompt').value;
+            const negativePrompt = document.getElementById('negativePrompt').value;
+            const style = document.getElementById('style').value;
+            const ratio = document.querySelector('input[name="ratio"]:checked').value;
+
+            const requestData = {
+                prompt,
+                negative_prompt: negativePrompt,
+                style,
+                ratio
+            };
+
+            // You can replace 'manne-YOUR_TOKEN' with the actual token
+            const token = 'manne-YOUR_TOKEN';
+
+            fetch('https://galileo.manne.ir/images', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'token': token
+                },
+                body: JSON.stringify(requestData)
+            })
+            .then(response => response.json())
+            .then(data => {
+                const imageResultDiv = document.getElementById('imageResult');
+                imageResultDiv.innerHTML = `<img src="data:image/png;base64,${data.image}" class="img-fluid" alt="Generated Image">`;
+            })
+            .catch(error => console.error('Error:', error));
+        }
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
