@@ -37,6 +37,9 @@ The response from the server will be like this:
 
 ### Creating an image
 
+__ENDPOINT__ : `/images`
+__METHOD__: `POST`
+
 ### Listing all the images of your token
 
 ### Getting a single image
