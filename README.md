@@ -40,6 +40,17 @@ The response from the server will be like this:
 __ENDPOINT__ : `/images`
 __METHOD__: `POST`
 
+using the following curl command, you can create an image:
+
+```bash
+curl -X POST -k -H 'Content-Type: application/json' -H 'token: manne-YOUR_TOKEN' -i 'https://galileo.manne.ir/images' --data '{
+ "prompt" : "a young beautiful woman with orange hair, standing in front of a tree, analog photo",
+ "negative_prompt": "hands, arms",
+ "style" : "nostyle",
+ "ratio" : "1:1"
+}'
+```
+
 ### Listing all the images of your token
 
 ### Getting a single image
