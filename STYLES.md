@@ -16,3 +16,4 @@
 | `pixel`         | Pixel Art     | Like old SEGA games |
 | `dark`          | Dark Fantasy  | Like digital, but darker and scarier |
 | `comic`         | Comic         | Using this style, you can make comic book characters and stuff |
+| `sketch`        | Sketch        | Pen/Pencil sketch style is made possible with this style       |
