@@ -51,6 +51,11 @@ curl -X POST -k -H 'Content-Type: application/json' -H 'token: manne-YOUR_TOKEN'
 }'
 ```
 
+And the result will be a json object like the following:
+
+```json
+```
+
 ### Listing all the images of your token
 
 ### Getting a single image
