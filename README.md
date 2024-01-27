@@ -43,6 +43,11 @@ The response from the server will be like this:
 __ENDPOINT__: `/check_limit`
 __METHOD__: `GET`
 
+using the following curl command, you'll find out how many images are left to create:
+
+```bash
+```
+
 
 ### Creating an image
 
