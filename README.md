@@ -40,6 +40,9 @@ The response from the server will be like this:
 
 ### Checking how much images left
 
+__ENDPOINT__: `/check_limit`
+__METHOD__: `GET`
+
 
 ### Creating an image
 
