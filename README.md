@@ -46,9 +46,14 @@ __METHOD__: `GET`
 using the following curl command, you'll find out how many images are left to create:
 
 ```bash
-curl -X GET -H 'token: manne-YOUR_TOKEN' -i http://localhost:3000/check_limit
+curl -X GET -H 'token: manne-YOUR_TOKEN' -i https://galileo.manne.ir/check_limit
 ```
 
+and the response will be like: 
+
+```json
+{"remaining_limit":100}
+```
 
 ### Creating an image
 
