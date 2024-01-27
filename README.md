@@ -101,6 +101,7 @@ And the result will be a json object like the following:
 #### Status Codes
 
 - `201`: When the image is created successfully.
+- `400`: When your token is not valid.
 
 ### Listing all the images of your token
 
