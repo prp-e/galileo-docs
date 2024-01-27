@@ -103,6 +103,7 @@ And the result will be a json object like the following:
 - `201`: When the image is created successfully.
 - `400`: When your token is not valid.
 - `406`: When the prompt includes a filtered word (NSFW or otherwise)
+- `402`: When you reached your limits
 
 ### Listing all the images of your token
 
